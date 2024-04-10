@@ -1,10 +1,4 @@
-// Implementación de una pila utilizando listas enlazadas
-class Node {
-    constructor(data) {
-        this.data = data;
-        this.next = null;
-    }
-}
+import Node from './Node';
 
 export default class Stack {
     constructor() {
